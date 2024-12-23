@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*---------------*/
+@media screen and (min-width:1500px), screen and (min-height: 850px){
+.bg-img > img {height: 100%;object-fit: fill;}  
+}
+/*---------------*/
+@media screen and (max-width: 1660px){
+body{font-size: 18px;}
+.left-bar,.left-channel{width: 33.33%;}
+.right-bar {width:66.66%;}
+.chanel-list {height: calc(100% - 110px);}  
+}
+/*---------------*/
+@media screen and (max-width: 1440px){
+body{font-size: 16px;}  
+.top-wrap {height: calc(100vh - 320px);}
+.chanel-list {height: calc(100% - 100px);}
+.channel-bar .chanel-list ul li a{padding: 10px 10px 0;}
+}
+/*---------------*/
+@media screen and (max-width: 1280px){
+body{font-size: 15px;}  
+.chanel-list {height: calc(100% - 95px);}
+.channel-bar ul li a span.chanel-name{width: 100px; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+}
+
+/*---------------*/
+@media screen and (max-width: 1170px){
+body{font-size: 14px;}  
+}
+
+/*---------------*/
+@media screen and (max-width: 1024px){
+
+}
+
+/*---------------*/
+@media screen and (max-width: 992px){
+
+}
+
+/*---------------*/
+@media screen and (max-width: 768px){
+	.container.gallery-container{
+		padding:20px;
+	}
+	.tz-gallery {
+	    padding:40px 0px 0px;
+	}
+}
+
+/*---------------*/
+@media screen and (max-width: 767px){
+	.container{
+		padding: 0 20px;
+	}
+	.call-to-action-from input[type=text]{
+		padding: 15px;
+		font-weight: 500;
+		font-size: 16px;
+	}
+	.call-to-action-from input[type=submit]{
+		margin-left: -50px;
+		padding: 15px;
+		width: 140px;
+	}
+
+	.img-330-200 img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*---------------*/
+@media screen and (max-width: 480px){
+	.container{
+		padding: 0 20px;
+	}
+}
